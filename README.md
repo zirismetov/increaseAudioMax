@@ -1,6 +1,8 @@
 # increaseAudioMax
 Ex. Youtube increase max sound 
 Copy-Paste in console
+
+
 var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 var myVideoElement = document.getElementsByTagName("video")[0];
 var source = audioCtx.createMediaElementSource(myVideoElement);
